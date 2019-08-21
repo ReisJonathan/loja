@@ -11,14 +11,14 @@
             "data" => []
         ];
 
-        public function __construct( $opts = array() ) {
+        public function __construct( $opts = array(), $tpl_dir = "/views/" ) {
 
             $this->options = array_merge( $this->defauts, $opts ); 
 
             // config
             $server = $_SERVER["DOCUMENT_ROOT"] . "/loja/"; // so pq to usando o localhost...
             $config = array(
-                "tpl_dir"       => $server . "/views/",
+                "tpl_dir"       => $server . $tpl_dir,
                 "cache_dir"     => $server . "/views-cache/",
                 "debug"         => false // set to false to improve the speed
             );
