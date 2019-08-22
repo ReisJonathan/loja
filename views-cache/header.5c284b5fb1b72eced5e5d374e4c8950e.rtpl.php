@@ -10,17 +10,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <title>AdminLTE 2 | Starter</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link rel="stylesheet" href="/loja/res/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/res/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="/loja/res/admin/bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/res/admin/bower_components/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="/loja/res/admin/bower_components/Ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="/res/admin/bower_components/Ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="/loja/res/admin/dist/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="/res/admin/dist/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
         page. However, you can choose any other skin. Make sure you
         apply the skin class to the body tag so the changes take effect. -->
-  <link rel="stylesheet" href="/loja/res/admin/dist/css/skins/skin-blue.min.css">
+  <link rel="stylesheet" href="/res/admin/dist/css/skins/skin-blue.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -92,7 +92,7 @@ desired effect
                     <a href="#">
                       <div class="pull-left">
                         <!-- User Image -->
-                        <img src="/loja/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <!-- Message title and timestamp -->
                       <h4>
@@ -177,14 +177,14 @@ desired effect
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="/loja/res/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
+              <img src="/res/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="/loja/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                <img src="/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
                   Alexander Pierce - Web Developer
@@ -212,7 +212,7 @@ desired effect
                   <a href="#" class="btn btn-default btn-flat">Profile</a>
                 </div>
                 <div class="pull-right">
-                  <a href="logout" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="/admin/logout" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
@@ -234,7 +234,7 @@ desired effect
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel">
         <div class="pull-left image">
-          <img src="/loja/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+          <img src="/res/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
           <p>Alexander Pierce</p>
