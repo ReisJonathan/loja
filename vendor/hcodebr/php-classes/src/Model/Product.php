@@ -16,6 +16,18 @@ class Product extends Model {
                                 ORDER BY desproduct");
 
     }
+
+    public static function checkList($list) {
+        
+        foreach ($list as &$row) {
+            $p = new Product();
+            $p->setData($row);
+            $row = $p->getValues();
+        }
+
+        return $list;
+
+    }
     
     public function save() {
 
